@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	box-sizing: border-box;
+
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+
+}
+
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+}
+img {
+	width: 100%;
+	display: block;
+}
+
+.img-flex {
+    display: block;
+    width: 100%;
+}
+
+.logo {
+    width: 20%;
+    margin: 0 auto;
+    padding: none;
+    overflow: hidden;
+   
+}
+
+.nav a,
+.nav a:link,
+.nav .nav-current:visited {
+    color: red;
+}
+.nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color: #ccc;
+    color: #fff;
+}
+
+
+
+
+.nav {
+   margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: white;
+    display: none;
+    text-decoration: none;
+    background-color: white;
+}
+
+.nav a {
+    display: block;
+    padding: 0.75rem;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-check:checked ~ .nav {
+    display: block;
+    
+}
+
+.nav-check {
+    position: absolute;
+    top: -3em;
+}
+
+.nav-label {
+    cursor: pointer;
+    font-size: 1.25rem;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.nav-check:checked ~ .nav-label {
+    background-color: pink;
+}
+
+
+
+  .intro {
+        margin: 0 20% 0 20%;
+    }
+
+.text-center {
+    text-align: center;
+}
+
+.line {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 255) 49%, rgba(115, 115, 115, 1) 51%, rgba(255, 255, 255, 255) 53%);
+    margin: 2.5rem;
+}
+
+.back-1 {
+    background-color: white;
+    padding: 0.4em;
+}
+
+.graphic {
+    margin: 0;
+    padding: 5em;
+    position: relative;
+    width: 100%;
+    background-image: url(http://placehold.it/5000x8000);
+    background-size: cover;
+}
+
+.icons {
+    margin: 0 auto;
+}
