@@ -243,13 +243,16 @@ p a:hover {
     font-size: 12px;
     display: block;
 	margin: 1.5em;
+    color: #37306b;
 }
 
 
 .profile {
-    width: 100%;
+    width: 50%;
     border-radius: 50%;
-    border: 3px solid #fff;
+    border: 4px solid #f5982d;
+    margin: 0 auto;
+
 }
 
 
