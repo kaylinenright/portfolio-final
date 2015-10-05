@@ -40,28 +40,19 @@ img {
    
 }
 
-.nav a,
-.nav a:link,
-.nav .nav-current:visited {
-    color: red;
-}
-.nav a:visited {
-    color: black;
-    text-decoration: none;
-}
-.nav a:hover{
-    background-color: #ccc;
-    color: #fff;
-}
+.top {
+    background-color: #64ccc3;
+     	padding-top: 80px;  
 
-
-
+    
+}
+    
 
 .nav {
    margin: 0;
-    padding: 0;
+    padding: 0px;
     list-style-type: none;
-    background-color: white;
+    background-color: #64ccc3;
     display: none;
     text-decoration: none;
     background-color: white;
@@ -69,9 +60,13 @@ img {
 
 .nav a {
     display: block;
-    padding: 0.75rem;
+    padding: 1rem;
     color: white;
     text-decoration: none;
+    background-color: #64ccc3;
+    text-align: center;
+    font-size: 18px;
+
 }
 
 .nav-check:checked ~ .nav {
@@ -90,11 +85,34 @@ img {
     position: absolute;
     left: 5px;
     top: 5px;
+    width: 3.7em;
 }
+
+.nav-label:hover {
+    opacity: .7;   
+}
+
 
 .nav-check:checked ~ .nav-label {
     background-color: pink;
 }
+
+.nav a,
+.nav a:link,
+.nav .nav-current:visited {
+    color: red;
+}
+.nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: #37306b;
+    border-style: solid;
+	border-color: #37306b;
+	border-width: 4px;
+}
+
 
 
 
@@ -127,4 +145,77 @@ img {
 
 .icons {
     margin: 0 auto;
+}
+
+.fade :hover {
+    opacity: .7;   
+}
+
+
+.footer-content {
+ 	padding-top: 70px;  
+	background-color: #64ccc3;
+	padding-bottom: 1em;
+}
+
+
+.footer-info { 
+	font-size: 18px;
+    padding-bottom: 1em;
+    display: block;
+	padding-right: 2em; 
+	padding-left: 2em;
+	text-align: center;
+    color: white;
+}
+
+.contact ul { 
+	list-style: none;
+	padding: 1.75em 0 0 0;
+}
+
+.contact li { 
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;	
+	text-decoration: none;
+    	color:white;
+
+}
+
+.contact a:link {
+    text-decoration: none;
+}
+
+.contact li:hover { 
+	opacity: .7;  
+}
+
+.contact-icon {
+	width: 0.5em;
+    margin: 0;
+    display: inline-block;    
+    width: 20%;
+	padding-top: 2.5em;
+}
+
+.email a{
+	color: grey;
+	text-decoration: none;
+	font-size: 30px;
+	padding: 8px 40px;
+	border-style: solid;
+	border-color: #37306b;
+	border-width: 4px;
+    color: #37306b;
+}
+
+p a:hover {
+    color: white;
+    border-color: white;
+
+}
+
+.foot-icon { 
+	padding-top: 2.5em;
 }
