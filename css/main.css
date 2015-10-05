@@ -116,7 +116,6 @@ img {
 
 
   .intro {
-        margin: 0 20% 0 20%;
     }
 
 .text-center {
@@ -135,7 +134,7 @@ img {
 
 .graphic {
     margin: 0;
-    padding: 5em;
+    padding: 10em;
     position: relative;
     width: 100%;
     background-image: url(http://placehold.it/5000x8000);
@@ -223,7 +222,14 @@ p a:hover {
 }
 
 
-
+.process-title {
+	font-size: 16px;
+    text-transform: uppercase;
+    margin: 2em 1.5em 0 1.5em;
+    padding-top: .5em;
+    display: block;
+    color: #37306b;
+}
 
 
 
@@ -236,6 +242,14 @@ p a:hover {
     margin: 1.5em;
     display: block;
     color: #bed5d6;
+}
+
+.process-p {
+    line-height: 1.5rem;
+    font-size: 12px;
+    display: block;
+	margin: .7em 1.5em 1.5em 1.5em;
+    color: #37306b;
 }
 
 .about-p {
