@@ -100,7 +100,6 @@ img {
 .nav a,
 .nav a:link,
 .nav .nav-current:visited {
-    color: red;
 }
 .nav a:visited {
     color: white;
@@ -148,7 +147,9 @@ img {
 }
 
 .fade :hover {
-    opacity: .7;   
+    opacity: .7; 
+  
+   
 }
 
 
@@ -156,6 +157,7 @@ img {
  	padding-top: 70px;  
 	background-color: #64ccc3;
 	padding-bottom: 1em;
+    margin-top: 15px;
 }
 
 
@@ -219,3 +221,32 @@ p a:hover {
 .foot-icon { 
 	padding-top: 2.5em;
 }
+
+
+
+
+
+
+
+.about-title {
+	font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #bed5d6;
+	padding-bottom: .5em;
+    margin: 1.5em;
+    display: block;
+    color: #bed5d6;
+}
+
+.about-p {
+    line-height: 1.5rem;
+    font-size: 12px;
+    display: block;
+	margin: 1.5em;
+}
+
+
+
+
+
+
