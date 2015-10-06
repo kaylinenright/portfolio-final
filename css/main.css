@@ -215,8 +215,14 @@ p a:hover {
 
 }
 
+.foot-icon:hover {
+opacity: .7;
+}
+
 .foot-icon { 
 	padding-top: 2.5em;
+    width: 90%;
+    padding-bottom: 1em;
 }
 
 .foot-icon:hover { 
