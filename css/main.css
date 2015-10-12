@@ -86,6 +86,8 @@ img {
     left: 5px;
     top: 5px;
     width: 3.7em;
+    padding: .5em;
+    margin-top: .5em;
 }
 
 .nav-label:hover {
@@ -93,9 +95,7 @@ img {
 }
 
 
-.nav-check:checked ~ .nav-label {
-    background-color: pink;
-}
+
 
 .nav a,
 .nav a:link,
@@ -191,11 +191,12 @@ img {
 
 
 .contact-icon {
-	width: 0.5em;
+	height: 1.3em;
     margin: 0;
     display: inline-block;    
-    width: 20%;
-	padding-top: 2.5em;
+    width: 15%;
+	padding: em;
+    
 }
 
 .email a{
@@ -269,9 +270,10 @@ opacity: .7;
     line-height: 1.5rem;
     font-size: 12px;
     display: block;
-	margin: 1.5em;
+	margin: auto;
     color: #37306b;
     font-weight: 400;
+    padding: 2.5em
 
 }
 
