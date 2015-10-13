@@ -117,6 +117,7 @@ img {
 
   .intro {
       margin: auto;
+      color: white;
     }
 
 .text-center {
@@ -138,7 +139,8 @@ img {
     padding: 10em;
     position: relative;
     width: 100%;
-    background-image: url(http://placehold.it/5000x8000);
+    background-image: url(".../images/billboard.jpg");
+    background-color:#37306b; 
     background-size: cover;
 }
 
