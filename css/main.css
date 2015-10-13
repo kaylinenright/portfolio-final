@@ -35,7 +35,7 @@ img {
 .logo {
     width: 20%;
     margin: 0 auto;
-    padding: none;
+    padding: 0;
     overflow: hidden;
    
 }
@@ -116,6 +116,7 @@ img {
 
 
   .intro {
+      margin: auto;
     }
 
 .text-center {
@@ -224,6 +225,7 @@ opacity: .7;
 	padding-top: 2.5em;
     width: 90%;
     padding-bottom: 1em;
+    margin: auto;
 }
 
 .foot-icon:hover { 
@@ -288,5 +290,26 @@ opacity: .7;
 
 
 
+@media only screen and (min-width: 38em) {
 
+.foot-icon { 
+    width: 65%;
+}
+    
+    .contact-icon {
+    width: 9%;
+}
+
+}
+    
+    @media only screen and (min-width: 60em) {
+        
+        .foot-icon { 
+    width: 30%;
+}
+        
+        .contact-icon {
+    width: 5%;
+}
+    }
 
