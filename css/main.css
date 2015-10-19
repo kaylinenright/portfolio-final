@@ -139,7 +139,7 @@ img {
     padding: 10em;
     position: relative;
     width: 100%;
-    background-image: url(".../images/billboard.jpg");
+    background-image: url("../images/billboard.jpg");
     background-color:#37306b; 
     background-size: cover;
 }
