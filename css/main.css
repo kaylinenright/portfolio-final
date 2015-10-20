@@ -99,7 +99,10 @@ img {
 
 .nav a,
 .nav a:link,
-.nav .nav-current:visited {
+.nav .nav-current {
+        color: #37306b;
+
+    
 }
 .nav a:visited {
     color: white;
