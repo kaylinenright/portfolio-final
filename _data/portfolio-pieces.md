@@ -9,5 +9,5 @@ heading-3:Application
 image-1: http://placehold.it/300x300
 image-2: http://placehold.it/300x300
 image-3: http://placehold.it/300x300
-image-4: http://placehold.it/300x300
+image-4: ![Place Holder](http://placehold.it/300x300)
 ---
