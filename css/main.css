@@ -118,8 +118,6 @@ img {
 
 
   .intro {
-      margin: auto;
-      color: white;
     }
 
 .text-center {
@@ -141,7 +139,7 @@ img {
     padding: 10em;
     position: relative;
     width: 100%;
-    background-image: url("../images/billboard.jpg");
+    background-image: url("../images/billboard.svg");
     background-color:#37306b; 
     background-size: cover;
 }
