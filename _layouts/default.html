@@ -2,9 +2,32 @@
 <html lang="en-ca">
 
 <head>
+    
+  <!DOCTYPE html>
+<html lang="en-ca">
+<head>
     <meta charset="utf-8">
-    <title>Kaylin Enright · Portfolio website · Ottawa, Canada</title>
-    <meta name="An Ottawa based Graphic designer with a portfolio page full of passion for art. Feel free to contact me if you want to work together in the future, or you just like what you saw.">
+    <title>Kaylin Enright · Graphic Designer · Ottawa, Canada</title>
+	<meta name="keywords" content="Graphic design, Marketing, UI/UX designer">
+    <meta name="language" content="EN">
+    <meta name='subject' content='porfolio, design, graphic, image, web, UX UI'>
+    <meta name='designer' content='Kaylin Enright'>
+    <meta name="description" content="{{page.meta}}">
+    <meta name="author" content="Kaylin Enright">
+    <meta name="copyright" content="Kaylin Enright">
+    <meta name="geo.region" content="CA-Ontario">
+	
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Kaylin Enright · Ottawa Graphic Designer">
+    <meta property="og:url" content="http//:kaylinenright.ca">
+    <meta property="og:site_name" content="Kaylin Enright">
+    <meta property="og:discription" content="Kaylin Enright Graphic designer based in Ottawa, Canada.">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Sara Clayton · Ottawa Graphic Designer">
+    <meta name="twitter:url" content="www.saraaclayton.ca">
+    <meta name="twitter:description" content="Kaylin Enright Graphic designer based in Ottawa, Canada.">
+    <meta name="twitter:image" content="{{site.baseurl}}">  
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/grid.css">
     <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/type.css">
@@ -14,22 +37,25 @@
 </head>
 
 <body>
+    
+ <ul class="skip-links">
+    <li><a href="#main"> Jump to Main Content</a></li>
+    <li><a href="#navigation"> Jump to Navigation</a></li>
+    <li><a href="#footer"> Jump to Footer</a></li>
+
+</ul>
 
     <header role="banner" class=" top masthead pad-t-1-2 pad-b-1-2">
 
 
 
-     <nav class="">
+     <nav role="navagation">
             <input type="checkbox" class="nav-check" id="nav-check">
             <label class="nav-label" for="nav-check">
                 <img src="{{site.baseurl}}/images/hamburger.svg" alt="open navagation">
             </label>
 
             <ul class="nav">
-                
-                
-                
-                
                 
                 <li>
                     <a href="{{site.baseurl}}/index.html">Home</a>
@@ -70,7 +96,7 @@
     {{content}}
     
 
-            <div class="footer-content">
+            <div role="footer" class="footer-content">
             <p class="footer-info">Feel free to contact me if you want to work together in the future, or you just like what you saw</p>
 
             <p class="email text-center">
