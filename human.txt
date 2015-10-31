@@ -1,0 +1,30 @@
+/* Creator */
+
+Designer: Kaylin Enright
+
+Email: kaylin@kaylinenright.ca
+
+LinkedIn: https://www.linkedin.com/in/kaylinenright
+
+Behance:https://www.behance.net/kaylin-enright
+
+Twitter: https://twitter.com/kaylinenright
+
+Github: https://github.com/kaylinenright
+
+Location: Ottawa, Ontario
+
+/* Thanks */
+
+Name: http://kaylinenright.ca
+
+/* Site */
+
+Updated: October, 31, 2015
+
+Standards: HTML5, CSS3, Jekyll
+
+/* Technology */
+
+- github 
+- brackets
