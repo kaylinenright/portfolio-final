@@ -118,6 +118,8 @@ img {
 
 
   .intro {
+      width: 200px;
+      margin: auto;
     }
 
 .text-center {
