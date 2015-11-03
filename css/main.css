@@ -138,7 +138,7 @@ img {
 
 
   .intro {
-      width: 200px;
+      width: 300px;
       margin: auto;
     }
 
@@ -196,25 +196,28 @@ img {
     color: white;
 }
 
+.contact {
+    margin-top: 4.5em;
+}
+
+
 .contact ul { 
 	list-style: none;
 	padding: 1.75em 0 0 0;
 }
 
-.contact li { 
-    font-size: 14px;
-    line-height: 15px;
-    text-align: center;	
-	text-decoration: none;
-    	color:white;
 
-}
+
 
 .contact a:link {
     text-decoration: none;
+    color: #37306b; 
+    
 }
 
-
+.contact a:hover {
+    color: white;  
+}
 
 .contact-icon {
 	height: 1.3em;
@@ -248,7 +251,7 @@ opacity: .7;
 
 .foot-icon { 
 	padding-top: 2.5em;
-    width: 90%;
+    width: 100%;
     padding-bottom: 1em;
     margin: auto;
 }
@@ -259,7 +262,7 @@ opacity: .7;
 }
 
 .process-title {
-	font-size: 16px;
+	font-size: 18px;
     text-transform: uppercase;
     margin: 2em 1.5em 0 1.5em;
     padding-top: .5em;
@@ -272,7 +275,7 @@ opacity: .7;
 
 
 .about-title {
-	font-size: 18px;
+	font-size: 25px;
     text-transform: uppercase;
     border-bottom: 1px solid #bed5d6;
 	padding-bottom: .5em;
@@ -284,8 +287,8 @@ opacity: .7;
 }
 
 .process-p {
-    line-height: 1.5rem;
-    font-size: 12px;
+    line-height: 1.7rem;
+    font-size: 16px;
     display: block;
 	margin: .7em 1.5em 1.5em 1.5em;
     color: #37306b;
@@ -294,8 +297,8 @@ opacity: .7;
 }
 
 .about-p {
-    line-height: 1.5rem;
-    font-size: 12px;
+    line-height: 1.7rem;
+    font-size: 16px;
     display: block;
 	margin: auto;
     color: #37306b;
@@ -324,6 +327,10 @@ opacity: .7;
     .contact-icon {
     width: 9%;
 }
+    
+    .intro {
+      width: 350px;
+    }
 
 }
     
@@ -336,5 +343,9 @@ opacity: .7;
         .contact-icon {
     width: 5%;
 }
+        
+        .intro {
+      width: 550px;
+    }
     }
 

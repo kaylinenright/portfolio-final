@@ -44,19 +44,21 @@ fieldset, pre, table {
 }
 
 h1, .exa {
-  font-size: 1.8020rem;
-  line-height: 1.6648;
+ font-size: 2.2807rem;
+  line-height: 1.3154;
 }
 
 h2, .peta {
-  font-size: 1.6018rem;
-  line-height: 1.8729;
+   font-size: 2.0273rem;
+  line-height: 1.4798;
 }
 
 h3, .tera {
   font-size: 1.4238rem;
   line-height: 1.0535;
 }
+
+
 
 h4, .giga {
   font-size: 1.2656rem;
