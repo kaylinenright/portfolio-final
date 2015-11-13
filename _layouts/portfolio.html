@@ -1,62 +1,77 @@
----
-layout: default
----
- 
-      <div class="text-center pad-top">
-            <h1 class="text-center">
-                <span class="about-title">{{page.title}}</span>
-            </h1>
-        </div>
+--- layout: default ---
+
+<div class="text-center pad-top">
+    <h1 class="text-center">
+        <span class="about-title">{{page.title}}</span>
+    </h1>
+</div>
 
 
-    
-    
-        <div class="grid">
-
-            <div class=" unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-                <h2 class="process-title">{{page.heading1}}</h2>
-                <p class="process-p">{{page.para-1}}</p>
-                
-                <h2 class="process-title">{{page.heading-2}}</h2>
-                <p class="process-p">{{page.para-2}}</p>
-                
-                <h2 class="process-title">{{page.heading-3}}</h2>
-                <p class="process-p">{{page.para-3}}</p>
-            </div>
-        
-
-            <div class=" unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-                <a href="case-two.html">
-                    {% for images in page.image-1 %}
-                    <img class="island-1-2 img-flex icons" src="{{site.baseurl}}/images/{{images}}" alt="Case Two">
-                    {% endfor %}
-                </a>
-            </div>
-            
-        </div>
-
-        <div class="grid">
-
-            <div class=" unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
-                    {% for images in page.image-2 %}
-                <img class="island-1-2 img-flex icons" src="{{site.baseurl}}/images/{{images}}" alt="Case One">
-                 {% endfor %}
-            </div>
 
 
-            <div class=" unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
-                    {% for images in page.image-3 %}
-                    <img class="island-1-2 img-flex icons" src="{{site.baseurl}}/images/{{images}}" alt="Case Two">
-                    {% endfor %}
-            </div>
+<div class="grid">
+
+    <div class=" unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+        <h2 class="process-title">{{page.heading1}}</h2>
+        <p class="process-p">{{page.para-1}}</p>
+
+        <h2 class="process-title">{{page.heading-2}}</h2>
+        <p class="process-p">{{page.para-2}}</p>
+
+        <h2 class="process-title">{{page.heading-3}}</h2>
+        <p class="process-p">{{page.para-3}}</p>
+    </div>
 
 
-            <div class=" unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
-                    {% for images in page.image-4 %}
-                    <img class="island-1-2 img-flex icons" src="{{site.baseurl}}/images/{{images}}" alt="Case Three">
-                    {% endfor %}
-            </div>
-        </div>
+    <div class=" unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+        <a href="case-two.html">
+            {% for images in page.image-1 %}
+            <img class="island-1-2 img-flex icons" src="{{site.baseurl}}/images/{{images}}" alt="Case Two">{% endfor %}
+        </a>
+    </div>
 
-    {{content}}
+</div>
+
+<div class="grid">
+
+    <div class=" unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
+        {% for images in page.image-2 %}
+        <img class="island-1-2 img-flex icons" src="{{site.baseurl}}/images/{{images}}" alt="Case One">{% endfor %}
+    </div>
+
+
+    <div class=" unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
+        {% for images in page.image-3 %}
+        <img class="island-1-2 img-flex icons" src="{{site.baseurl}}/images/{{images}}" alt="Case Two">{% endfor %}
+    </div>
+
+
+    <div class=" unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
+        {% for images in page.image-4 %}
+        <img class="island-1-2 img-flex icons" src="{{site.baseurl}}/images/{{images}}" alt="Case Three">{% endfor %}
+    </div>
+</div>
+
+
+
+
+<div class="grid">
+    <div class=" unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
+        {% for images in page.image-5 %}
+        <img class="island-1-2 img-flex icons" src="{{site.baseurl}}/images/{{images}}" alt="Case One">{% endfor %}
+    </div>
+
+
+    <div class=" unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
+        {% for images in page.image-6 %}
+        <img class="island-1-2 img-flex icons" src="{{site.baseurl}}/images/{{images}}" alt="Case Two">{% endfor %}
+    </div>
+
+
+    <div class=" unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
+        {% for images in page.image-7 %}
+        <img class="island-1-2 img-flex icons" src="{{site.baseurl}}/images/{{images}}" alt="Case Three">{% endfor %}
+    </div>
+</div>
+{{content}}
 
