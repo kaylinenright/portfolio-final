@@ -27,6 +27,12 @@ img {
 	display: block;
 }
 
+.elephant {
+    width: 30%;
+    margin: auto;
+    
+}
+
 .img-flex {
     display: block;
     width: 100%;
