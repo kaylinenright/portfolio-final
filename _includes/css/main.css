@@ -288,7 +288,7 @@ opacity: .7;
 }
 
 .missing-title {
-	font-size: 45px;
+	font-size: 48px;
     text-transform: uppercase;
 	padding-bottom: 1em;
     margin: auto;
@@ -302,7 +302,7 @@ opacity: .7;
 .elephant {
     width: 60%;
     margin: auto;
-    margin-top: 30%;
+    margin-top: 10%;
 }
 
 .missing {
@@ -382,7 +382,7 @@ opacity: .7;
 @media only screen and (min-width: 38em) {
 
 .foot-icon { 
-    width: 55%;
+    width: 25%;
 }
     
     .contact-icon {
@@ -456,7 +456,7 @@ opacity: .7;
     }
 
 .elephant {
-    width: 10px;
+    width: 25%;
     margin-top: 5%;
 }
         
