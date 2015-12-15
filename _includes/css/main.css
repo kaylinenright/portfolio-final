@@ -288,15 +288,15 @@ opacity: .7;
 }
 
 .missing-title {
-	font-size: 20px;
+	font-size: 35px;
     text-transform: uppercase;
-	padding-bottom: .5em;
+	padding-bottom: 1em;
     margin: auto;
     display: block;
     color: #bed5d6;
     font-weight: 600;
     text-align: center;
-    padding-top: .5em;
+    padding-top: 1em;
 }
 
 .elephant {
@@ -310,9 +310,9 @@ opacity: .7;
 }
 .missing a{
 	color: grey;
-    font-size: 0.8889rem;
+    font-size: 1.1250rem;
 	text-decoration: none;
-	padding: 8px 40px;
+	padding: 10px 40px;
 	border-style: solid;
 	border-color: #ff9933;
 	border-width: 4px;
