@@ -279,7 +279,7 @@ opacity: .7;
 .missing-h2 {
 	font-size: 18px;
     text-transform: uppercase;
-    margin: 0 2.5em 5.5em 2.5em;
+    margin: 0 2.5em 3.5em 2.5em;
     display: block;
     color: #37306b;
     font-weight: 600;
@@ -288,7 +288,7 @@ opacity: .7;
 }
 
 .missing-title {
-	font-size: 35px;
+	font-size: 45px;
     text-transform: uppercase;
 	padding-bottom: 1em;
     margin: auto;
@@ -310,7 +310,7 @@ opacity: .7;
 }
 .missing a{
 	color: grey;
-    font-size: 1.1250rem;
+    font-size: 1.2656rem;
 	text-decoration: none;
 	padding: 10px 40px;
 	border-style: solid;
@@ -324,7 +324,6 @@ opacity: .7;
     color:#bed5d6;
     border-color: #bed5d6; 
     text-align: center;
-    font-size: 0.8889rem;
 }
 
  .big-spacing {
