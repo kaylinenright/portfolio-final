@@ -413,7 +413,7 @@ opacity: .7;
             
             margin: 100px 50px 100px 50px;
         }
-    }  
+  
     
 .missing a{
     font-size: 26px;
@@ -426,7 +426,7 @@ opacity: .7;
     @media only screen and (min-width: 60em) {
        
         .foot-icon { 
-    width: 5%;
+    width: 20%;
 }
         
         .contact-icon {
