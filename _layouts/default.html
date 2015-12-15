@@ -26,7 +26,13 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="{{site.baseurl}}/portfolio.css" rel="stylesheet">
-        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link href="{{site.baseurl}}/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="{{site.baseurl}}/img/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+
+
+        
     </head>
 
     <body>
@@ -46,8 +52,6 @@
 
         <header role="banner" class=" top masthead pad-t-1-2 pad-b-1-2">
 
-
-
             <nav role="navagation">
                 <input type="checkbox" class="nav-check" id="nav-check">
                 <label class="nav-label" for="nav-check">
@@ -57,29 +61,29 @@
                 <ul class="nav">
 
                     <li>
-                        <a href="{{site.baseurl}}/index.html">Home</a>
+                        <a href="{{site.baseurl}}/index.html" {% if page.url == '/index/' %} class="current" {% endif %}>Home</a>
                     </li>
                     <li>
-                        <a href="{{site.baseurl}}/portfolio-pages/case-one/">Annuel Report: Cirque du Soliel</a>
+                        <a href="{{site.baseurl}}/portfolio-pages/case-one/" {% if page.url == '/portfolio-pages/case-one/' %} class="current" {% endif %}>Annuel Report: Cirque du Soliel</a>
                     </li>
                     <li>
-                        <a href="{{site.baseurl}}/portfolio-pages/case-two/">Marketing Campaign: Tiffany Co.</a>
+                        <a href="{{site.baseurl}}/portfolio-pages/case-two/" {% if page.url == '/portfolio-pages/case-two/' %} class="current" {% endif %}>Marketing Campaign: Tiffany Co.</a>
                     </li>
                     <li>
-                        <a href="{{site.baseurl}}/portfolio-pages/case-three/">Hand-made Typography Book</a>
+                        <a href="{{site.baseurl}}/portfolio-pages/case-three/" {% if page.url == '/portfolio-pages/case-three/' %} class="current" {% endif %}>Hand-made Typography Book</a>
                     </li>
                     <li>
-                        <a href="{{site.baseurl}}/portfolio-pages/case-four/">Package Redesign</a>
+                        <a href="{{site.baseurl}}/portfolio-pages/case-four/" {% if page.url == '/portfolio-pages/case-four/' %} class="current" {% endif %}>Package Redesign</a>
                     </li>
                     <li>
-                        <a href="{{site.baseurl}}/portfolio-pages/case-five/">UI/UX Design: Bar Buddy</a>
+                        <a href="{{site.baseurl}}/portfolio-pages/case-five/" {% if page.url == '/portfolio-pages/case-five/' %} class="current" {% endif %}>UI/UX Design: Bar Buddy</a>
                     </li>
                     <li>
-                        <a href="{{site.baseurl}}/portfolio-pages/case-six/">Magazine Layout</a>
+                        <a href="{{site.baseurl}}/portfolio-pages/case-six/" {% if page.url == '/portfolio-pages/case-six/' %} class="current" {% endif %}>Magazine Layout</a>
                     </li>
                     
                 <li>
-                        <a href="{{site.baseurl}}/portfolio-pages/case-seven/">UI/UX Design: Mommy Tracker</a>
+                        <a href="{{site.baseurl}}/portfolio-pages/case-seven/" {% if page.url == '/portfolio-pages/case-seven/' %} class="current" {% endif %}>UI/UX Design: Mommy Tracker</a>
                     </li>
                 </ul>
             </nav>

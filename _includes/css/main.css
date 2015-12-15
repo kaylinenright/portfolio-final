@@ -68,6 +68,7 @@ img {
 	border-width: 4px;    background-color: #64ccc3;
     text-align: center;
     font-size: 18px;
+    text-decoration: none;
 
 }
 
@@ -96,15 +97,8 @@ img {
     opacity: .7;   
 }
 
-
-
-
 .nav a,
 .nav a:link,
-.nav .nav-current {
-
-    
-}
 .nav a:visited {
     color: white;
     text-decoration: none;
@@ -114,6 +108,13 @@ img {
     border-style: solid;
 	border-color: #37306b;
 	border-width: 4px;
+}
+
+.nav .current,
+.nav .current:link,
+.nav .current:visited {
+    text-decoration: underline;
+    color: white;
 }
 
 .skip-links {
@@ -322,6 +323,7 @@ opacity: .7;
     color:#bed5d6;
     border-color: #bed5d6; 
     text-align: center;
+    font-size: 1.0000rem;
 }
 
  .big-spacing {
