@@ -46,12 +46,20 @@ img {
 .nav .current:link,
 .nav .current:visited {
     text-decoration: underline;
-     color: white;
+    color: white;
     height: 3px;
     background: #FFF;
+    padding-top: 10px;
 }
 
-
+.about-me { 
+	font-size: 20px;
+    padding-bottom: 1em;
+    display: block;
+	padding-right: 2em; 
+	padding-left: 2em;
+    color: #ff9933;
+}
 
 
 
@@ -243,7 +251,8 @@ img {
   text-decoration: none;
   overflow: hidden;
 }
-.overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
+.overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after,
+.overlay ul li a.current:after {
   width: 100%;
 }
 .overlay ul li a:after {
@@ -254,10 +263,11 @@ img {
   width: 0%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  height: 3px;
+  height: 2px;
   background: #FFF;
   -webkit-transition: .35s;
   transition: .35s;
+    
 }
 
 @-webkit-keyframes fadeInRight {
@@ -405,8 +415,7 @@ img {
 
 .contact a:link {
     text-decoration: none;
-    color: #37306b; 
-    
+    color: #37306b;
 }
 
 .contact a:hover {
